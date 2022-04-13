@@ -1,4 +1,3 @@
-//BÀI TẬP 1
 
 interns = [
     {
@@ -39,4 +38,4 @@ let result = interns.map(function(item, index){
 })
 
 console.log(result.length);
-
+  
