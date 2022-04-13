@@ -22,8 +22,8 @@ var users =[
 ]
 
 //Lọc ra các user có coins lớn hơn 10
-var newArray = users.map(function(user){
-    return user.coins>10;
+var newArray = users.filter(function(user){
+    return user.coins>100;
 })
 
 console.log(newArray);
