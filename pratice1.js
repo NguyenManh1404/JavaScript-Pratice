@@ -26,14 +26,14 @@ interns = [
     isAnswer: false
   },
 ]
-
+/*YÊU CẦU */
 // Phía trên là dánh sách checklist câu hỏi cần phải trả lời của công nhân khi vào công trường.
 // Kiểm tra tất cả câu hỏi của công nhân xem đã trả lời chưa 
 // nếu tất cả isAnswer là true thì in ra: "Personal Checklist: Passed" 
 // nếu 1 trong những câu question có isAnswer là false:  "Personal Checklist: Failed" 
 // */
 
-//Bài làm
+/*BÀI LÀM */
 var check = interns.every(function(item,index){
     console.log(index,item.isAnswer);
     return item.isAnswer===true;

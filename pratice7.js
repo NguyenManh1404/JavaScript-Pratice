@@ -29,3 +29,8 @@ var newArray = users.map(function(user){
 console.log(newArray);
 
 
+//result: [ false, true, true, false ]
+
+
+
+
