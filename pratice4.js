@@ -51,8 +51,7 @@ const users = [
 
   let arrayNew = users.map(function(user){
       return{
-          id: user.ID,
-          name: user.name,
+         ... user,
           isActive: user.isActive ?? true,//nếu null hoặc undifile thì lấy vế phải, còn ko thì lấy vế trái
           createdDate:new Date()
       }

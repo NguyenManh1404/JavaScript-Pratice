@@ -34,7 +34,7 @@ interns = [
 // */
 
 /*BÀI LÀM */
-var check = interns.every(function(item,index){
+var check = interns.every((item,index)=>{
     console.log(index,item.isAnswer);
     return item.isAnswer===true;
 })

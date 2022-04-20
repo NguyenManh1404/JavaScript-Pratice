@@ -43,7 +43,7 @@ Array.prototype.reduce2 = function(callback,result){
     }
 
     for(index = 0;index < this.length; index++){
-        console.log(index);
+        
         result =  callback(result,this[index],index,this)
     }
     

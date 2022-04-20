@@ -6,10 +6,6 @@ async function demo() {
 }
 
 
-
-ff
-
-
 //Tạo promise
 let promise = new Promise(
     function(result,reject){
@@ -34,4 +30,6 @@ promise()
 
 //tham trị: biến sẽ được lưu trực tiếp vào vùng nhớ
 
-//tham chiếu: nó sẽ lưu địa chỉ của kho chứa chứ ko ko lưu trực tiếp vào vùng nhớ
+//tham chiếu: nó sẽ lưu địa chỉ của kho chứa, chứ ko ko lưu trực tiếp vào vùng nhớ
+
+

@@ -1,7 +1,7 @@
 //Cho đối tượng
 item = {
     product: 'Bút chì',
-    price: 8
+    price: null
  }
 /*YÊU CẦU */
 //Viết hàm check 'price của item

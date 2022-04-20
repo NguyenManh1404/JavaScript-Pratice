@@ -25,6 +25,6 @@ let newArray2= birthYear.forEach(function(year,index){//dùng forEach thì ko th
 
 console.log(convertAge(birthYear));
 
-console.log(newArray);
+console.log(newArray);  
 
 // console.log(newArray2);
